@@ -1,0 +1,4 @@
+transformers==4.10.2
+bert-extractive-summarizer==0.8.1
+spacy==2.2.4
+sentencepiece==0.1.96
