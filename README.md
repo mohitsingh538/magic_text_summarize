@@ -28,7 +28,9 @@ from magic_text_summarize.magic_text_summarizer import Summarize_Paragraph
 body = '''   '''
 
 # For GTP-2
-x = Summarize_Paragraph.this_paragraph('GPT-2', body)
+paragraph_summarizer = Summarize_Paragraph('GPT-2')
+
+summary = paragraph_summarizer.this_paragraph(body)
 ```
 
 <h4>Available Options:</h4>
